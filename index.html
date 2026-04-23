@@ -365,6 +365,13 @@
   .mobile-menu .btn-primary { font-size:1rem; padding:.9rem 2rem; }
 
   @media(max-width:900px){
+    /* Réduit le padding vertical de toutes les sections sur mobile */
+    section { padding-top: 3rem !important; padding-bottom: 3rem !important; }
+    #hero { padding-top: 64px !important; padding-bottom: 0 !important; }
+    .hero-inner { padding: 2.5rem 5% 3rem; }
+    #resultats .resultat-item { padding: 2rem 1rem; }
+    .cta-band, #cta-band-2 { padding: 2rem 5%; }
+    #cta-final { padding: 4rem 5%; }
     .hero-bottom { grid-template-columns:1fr; }
     .probleme-grid,.ampli-grid,.resultats-grid,.urgence-inner { grid-template-columns:1fr; }
     .solution-inner { grid-template-columns:1fr; gap:2rem; }
